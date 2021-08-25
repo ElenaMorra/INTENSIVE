@@ -1,0 +1,268 @@
+header{
+background: url(../images/sevastopol.jpg) no-repeat;
+background-size: cover;
+background-position:top center ;
+height: 900px;
+}
+
+.top-menu{
+    text-align: center;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+}
+    
+.menu li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.titles{
+    margin-top: 250px;
+    text-align: center;
+}
+.titles h1, .titles h2{
+    color: rgb(255, 252, 249);  
+}
+
+.titles h1{
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Style Script', cursive;
+    color: rgb(124, 196, 230);
+}
+
+.titles h2{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(108, 61, 238);
+}
+
+.head-but{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.blue-but{
+    width: 240px;
+    padding: 15px 0;
+    border: none;
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointers;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(122, 122, 241);
+    outline: none;
+}
+
+.blue-but:hover{
+    border: 1px solid rgb(114, 133, 240);
+    background:rgb(255, 255, 255) ;
+     background: -webkit-linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+    background: -moz-linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+    background: linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);;
+}
+
+/* ______________________________ */
+
+.title{
+    background-color: #ffffff;
+}
+
+.title-text {
+    text-align: center;
+    padding-top: 120px;    
+}
+
+.title-text h2 {
+    font-size:40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;    
+}
+
+.title-text p {
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    margin: 5px;   
+}
+/* _________________________________ */
+
+.info {
+    margin-top: 20px;
+    margin-bottom: 118px;
+    /* height: 300px; */
+    background: -webkit-linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+background: -moz-linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+background: linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+    
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.content img {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.content  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;     
+}
+
+
+.content p {
+    color:rgb(0, 0, 0);
+    font-size:14px;
+}
+
+/* ____________________________________________ */
+
+/* секция about */
+
+.about{
+    padding-top: 84px;
+    background: -webkit-linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+background: -moz-linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+background: linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.about img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border:7px solid rgb(0, 0, 0);
+}
+
+.top-line img{
+    width: auto !important;
+    height: auto !important;
+    border: 0 !important;
+}
+
+.about-items-right h4,
+.about-items-left h4{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.about-items-right h4 span,
+.about-items-left h4 span{
+    text-transform: uppercase;
+}
+
+.about-items-right p,
+.about-items-left p{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+
+.story{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 50%;
+    border: 7px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+    margin:0 auto;
+    cursor: pointer;
+    margin-bottom: 126px;
+    background-color: rgb(180, 103, 252);
+}
+
+.stor h4{
+    text-transform: uppercase;
+    font-size: 18 px;
+    text-align: center;
+}
+
+/* секция members */
+.members{
+    height: 820px;
+    /* background-color:#f9f9f9 ; */
+    background: -webkit-linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+    background: -moz-linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+    background: linear-gradient(225deg, rgb(232, 161, 65), rgb(108, 37, 231) 56%, rgb(244, 66, 184) 100%);
+}
+
+.team{
+    margin-top: 83px;
+    text-align: center;
+}
+
+.team > img{
+    margin-bottom: 30px;
+    display: block;
+    margin: auto;
+    border:7px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.team p{
+    color: rgb(0, 0, 0);
+}
+
+.team h5{
+    padding-top: 30px;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(108,61,238);
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+    display: inline-block;
+    padding: 0;
+    margin-top: 38px;
+}
+form input{
+    padding-left: 5px;
+    width: 90px;
+    height: 20px;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border:1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 12px;
+    padding-top: 2px;
+}
+form input::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    opacity: 0.6;
+}
+form label{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+
